@@ -1,0 +1,52 @@
+Code for an alarm clock. 
+link: https://github.com/maximecb/AVR-Alarm-Clock/blob/master/main.c
+Files: Main.C---->line number 589-591 is 612-615 
+Why? This code codes for the time the alarm should go off and the other codes for the sounds it should make. 
+
+Code for a target rocket system. 
+link: https://github.com/DawsenR/smartRockets/blob/master/rocket.js
+Files: rocket.js --->lines 2-11 and 49-56
+Why? this code asks for cordianted of X and y axis. Also codes for width, hieght, acceleration, volicity, and position. It also codes for a countdown. The other lines codes for a collison 
+
+Code for calorie counter app
+link: https://github.com/StormStark/Diet
+Files:App---> src--> main-->java/com/akshat/diet-->staticData.java--> lines 2-100
+Why? This Files gives a specific exercise for a duration and let's you know the calories burned. it also codes for different foods and portion sizes. Theres another file that codes for age weight, height and BMI.
+
+Code for online voting
+link: https://github.com/valimised/ivxv/blob/master/voting/src/ivxv.ee/service/voting/main.go
+File--> voting-->src.ivxv.ee-->service.voting lines 114-140
+Why ? this codes for the voters vote and signature and actually counts the vote also codes for the recording of the voting ID and the time the signer voted. 
+
+Code for aumated email reponse
+Link: https://github.com/programmaman/emAI/blob/master/main.py
+File: main.py lines--> 48-50 and 23-26
+Why? This is a code for ChatGPT and its coding for chat GPT to make automated reponses. 
+
+Social media post scheduler code
+Link: https://github.com/verbb/social-poster/blob/craft-4/src/SocialPoster.php
+File: Socialposter.php --->lines 194-200
+Why? This saves social media posts and also gives the summary of the post
+
+Weather forcast Code
+File: https://github.com/hiromu/knn-forecast/blob/master/forecast.py
+File: forecast.py-->lines 33-41
+Why? These lines are asking for date, time, and temperature, and codes for different kinds of scales
+ 
+ E-commerce checkout system process code
+ Link: https://github.com/Tcomester/Raya-e-commerce-System/blob/main/store/views/checkout.py
+ File: store-->views-->checkout.py lines 11-27
+ Why? This codes for everything in the customers cart, the products, all the customers personal information and the prices. 
+
+ File compression Code 
+ Link: https://chat.openai.com/c/598f46c9-c9a6-472a-b256-27bcd97e34cf
+ Why? I had to use Chatgpt because tbh I had no idea what key words I was looking for but the code chatgpt said was you have a sample and you can compress or decompress it by having it code for something else or simplar. Here's a copy and past of what it said. 
+ def compress_file(input_file, output_file):
+    with open(input_file, 'rb') as f_in:
+        with gzip.open(output_file, 'wb') as f_out:
+            shutil.copyfileobj(f_in, f_out)
+
+def decompress_file(input_file, output_file):
+    with gzip.open(input_file, 'rb') as f_in:
+        with open(output_file, 'wb') as f_out:
+            shutil.copyfileobj(f_in, f_out)

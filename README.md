@@ -3,3 +3,5 @@
 
 ## Instructions
 
+Code that codes for an alarm .
+def set_alarm
